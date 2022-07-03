@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+	<section class="bg-slate-900 flex justify-center py-16 px-4">
+		<div class="max-w-[1240px] w-full">
+			<div class="flex flex-row flex-wrap">
+				<div class="w-full md:w-1/2 px-4 py-8">
+					<img src="../../img/enzo-tommasi-wlxJ4idMTUk-unsplash.jpg" alt="some item">
+				</div>
+				<div class="w-full md:w-1/2 px-4 py-8 flex flex-col justify-between">
+					<div class="grid grid-cols-1 gap-8">
+						<h2 class="text-5xl text-white font-extrabold py-2 capitalize">the woman that cries the rainbow</h2>
+						<p class="text-gray-400 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+							consectetur
+							placeat
+							nesciunt alias illum iure
+							porro minima consequuntur veritatis, nostrum atque ipsum? Natus suscipit molestias voluptatem accusantium
+							corrupti, expedita explicabo?</p>
+						<p class="text-white font-bold text-2xl">
+							By:
+							<span class="text-purple-400">Marc Andy Pierrre</span>
+						</p>
+						<p class="text-white font-bold text-2xl">
+							From:
+							<span class="text-purple-400">Jacmel</span>
+						</p>
+						<p class="text-white font-bold text-2xl">
+							Owner: <span class="text-purple-400">Jean Roosevelt Antoine</span>
+						</p>
+					</div>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-white text-xl font-semibold capitalize">highest bid: <span
+								class="text-purple-400 font-bold">1.5
+								Bitcoin</span></h3>
+						<label class="text-gray-500 capitalize text-lg font-semibold ">bid higher:</label>
+						<div class="mt-1 relative rounded-md shadow-sm">
+							<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+								<span class="text-gray-500 sm:text-sm"> $ </span>
+							</div>
+							<input type="text" name="price" id="price"
+								class="border-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md outline-none py-3"
+								placeholder="0.00">
+							<div class="absolute inset-y-0 right-0 flex items-center">
+								<label for="currency" class="sr-only">Currency</label>
+								<select id="currency" name="currency"
+									class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md outline-none">
+									<option>USD</option>
+									<option>Etherum</option>
+									<option>Bitcoin</option>
+								</select>
+							</div>
+						</div>
+						<button class="px-4 py-2 rounded border border-blue-700 hover:bg-blue-700 text-white"><span class="mx-4"><i
+									class="bi bi-cart-plus-fill"></i></span>Bid</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

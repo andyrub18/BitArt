@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+	<script defer src="../js/home.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="h-[80px] w-full px-8 py-4 bg-slate-900 sticky top-0 flex justify-center items-center z-10">
+		<div class="flex flex-row justify-between w-full max-w-[1240px]">
+			<span class="text-white text-3xl">
+				<img class="h-[70px] w-[70px]" src="../../img/logo.png" alt="bitArt Logo">
+			</span>
+			<nav class="flex flex-row items-baseline list-none">
+				<ul class="hidden lg:flex lg:flex-row items-center justify-evenly">
+					<li class="mx-4 flex items-center py-1 px-4 font-semibold uppercase bg-gray-700 text-blue-600"><a
+							href='#'>home</a></li>
+					<li class="mx-4 text-white relative flex flex-col group">
+						<div class="flex items-center font-semibold uppercase group-hover:text-blue-600 py-2">Explore <span
+								class="mx-2"><i class="bi bi-chevron-down"></i></span></div>
+						<ul
+							class="bg-gray-200 text-black px-4 py-2 rounded-sm absolute left-0 w-full shadow-lg md:w-48 mt-8 invisible group-hover:visible">
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 1</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 2</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 3</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="mx-4 text-white relative flex flex-col group">
+						<div class="flex items-center font-semibold uppercase group-hover:text-blue-600 py-2">Collections <span
+								class="mx-2"><i class="bi bi-chevron-down"></i></span></div>
+						<ul
+							class="bg-gray-200 text-black px-4 py-2 rounded-sm absolute left-0 w-full shadow-lg md:w-48 mt-8 invisible group-hover:visible">
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 1</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 2</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 3</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="mx-4 text-white relative flex flex-col group">
+						<div class="flex items-center font-semibold uppercase group-hover:text-blue-600 py-2">Pages <span
+								class="mx-2"><i class="bi bi-chevron-down"></i></span></div>
+						<ul
+							class="bg-gray-200 text-black px-4 py-2 rounded-sm absolute left-0 w-full shadow-lg md:w-48 mt-8 invisible group-hover:visible">
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 1</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 2</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 3</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="mx-4 text-white relative flex flex-col group">
+						<div class="flex items-center font-semibold uppercase group-hover:text-blue-600 py-2">Shop <span
+								class="mx-2"><i class="bi bi-chevron-down"></i></span></div>
+						<ul
+							class="bg-gray-200 text-black px-4 py-2 rounded-sm absolute left-0 w-full shadow-lg md:w-48 mt-8 invisible group-hover:visible">
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 1</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 2</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 3</a>
+							</li>
+							<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a
+									href='#'>truc 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="mx-4 text-white flex items-center font-semibold uppercase hover:text-blue-600 ">contact</li>
+				</ul>
+				<ul class="flex flex-row items-center">
+					<li class="text-white mx-4 text-xl hover:text-blue-600"><button class="header--button__search"><i
+								class="bi bi-search"></i></button></li>
+					<li class="text-white mx-4 text-xl hover:text-blue-600"><button class="header--button__basket"><i
+								class="bi bi-bag-plus-fill"></i></button></li>
+					<li class="text-white mx-4 text-xl lg:hidden"><button class="header--button__menu"><i
+								class="bi bi-list"></i></button>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div
+		class="fixed right-0 top-0 bg-gray-900 w-full sm:w-1/2 lg:w-1/3 h-screen overflow-auto px-4 py-4 z-20 origin-right scale-x-0 transition-all duration-300"
+		id="search">
+		<div class="flex justify-between text-white text-xl font-bold h-[10%]">
+			<h4>Search</h4>
+			<button class="button--close__search"><i class="bi bi-x-circle"></i></button>
+		</div>
+		<div class="flex flex-col justify-center h-[90%]">
+			<h3 class="text-white text-3xl font-bold mb-8">What are you looking for?</h3>
+			<input type="text" placeholder="Enter Keywords"
+				class="outline-none bg-transparent border text-gray-300 border-white p-3 mb-8 placeholder:text-gray-300" />
+			<button
+				class="w-[100px] p-2 border border-purple-600 text-purple-600 hover:bg-purple-500 hover:text-white hover:font-semibold">Search</button>
+		</div>
+	</div>
+	<div
+		class="fixed right-0 top-0 bg-gray-900 w-full sm:w-1/2 lg:w-1/3 h-screen overflow-auto px-4 py-4 z-20 origin-right scale-x-0 transition-all duration-300"
+		id="cart">
+		<div class="flex justify-between text-white text-xl font-bold h-[10%]">
+			<h4>Cart Review</h4>
+			<button class="button--close__cart"><i class="bi bi-x-circle"></i></button>
+		</div>
+		<div class="flex flex-col justify-center h-[90%]">
+			<h3 class="text-white text-3xl font-bold mb-8">No products in the cart.</h3>
+		</div>
+	</div>
+	<div
+		class="fixed right-0 top-0 bg-gray-900 w-full sm:w-1/2 lg:w-1/3 h-screen overflow-auto px-4 py-4 z-20 origin-right scale-x-0 transition-all duration-300"
+		id="menu">
+		<div class="flex justify-between text-white text-xl font-bold h-[10%]">
+			<h4>Menu</h4>
+			<button class="button--close__menu"><i class="bi bi-x-circle"></i></button>
+		</div>
+		<div class="flex flex-col justify-center h-[90%]">
+			<ul>
+				<li class="text-white font-bold text-2xl mb-4 hover:text-blue-700">Home</li>
+				<li class="text-white font-bold text-2xl mb-4 group" tabindex="0">
+					<div class="flex justify-between hover:text-blue-700">Explore <span><i class="bi bi-chevron-down"></i></span>
+					</div>
+					<ul class="text-lg ml-8 mr-2 hidden group-focus:block">
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								1</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								2</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								3</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								4</a></li>
+					</ul>
+				</li>
+				<li class="text-white font-bold text-2xl mb-4 group" tabindex="0">
+					<div class="flex justify-between hover:text-blue-700">Collections <span><i
+								class="bi bi-chevron-down"></i></span></div>
+					<ul class="text-lg ml-8 mr-2 hidden group-focus:block">
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								1</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								2</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								3</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								4</a></li>
+					</ul>
+				</li>
+				<li class="text-white font-bold text-2xl mb-4 group" tabindex="0">
+					<div class="flex justify-between hover:text-blue-700">Pages <span><i class="bi bi-chevron-down"></i></span>
+					</div>
+					<ul class="text-lg ml-8 mr-2 hidden group-focus:block">
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								1</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								2</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								3</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								4</a></li>
+					</ul>
+				</li>
+				<li class="text-white font-bold text-2xl mb-4 group" tabindex="0">
+					<div class="flex justify-between hover:text-blue-700">Shop <span><i class="bi bi-chevron-down"></i></span>
+					</div>
+					<ul class="text-lg ml-8 mr-2 hidden group-focus:block">
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								1</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								2</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								3</a></li>
+						<li class="text-gray-600 font-semibold capitalize py-2 overflow-x-auto hover:text-blue-600"><a href='#'>truc
+								4</a></li>
+					</ul>
+				</li>
+				<li class="text-white font-bold text-2xl mb-4 hover:text-blue-700">Contract</li>
+			</ul>
+		</div>
+	</div>
+	<section
+		class="h-680 w-full bg-gradient-to-b from-slate-900 via-slate-900 to-purple-900/90 flex justify-center items-center">
+		<div class="text-left my-[80px] max-w-[1240px]">
+			<div class="px-4 w-full md:w-1/2 text-white">
+				<h2 class="text-7xl font-extrabold mb-4">Discover, collect, and sell physical and digital ART</h2>
+				<p class="text-lg text-gray-400 font-sans mb-4">Buy and sell your piece of art and NFTs on Haiti's best art
+					marketplace</p>
+				<div>
+					<button class="rounded-full border-2 px-4 py-2 font-bold mr-2"><span class="mr-1"><i
+								class="bi bi-globe2"></i></span>Explore</button>
+					<button class="rounded-full border-2 px-4 py-2 font-bold"><span class="mr-1"><i
+								class="bi bi-pencil-square"></i></span>Create</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-black flex justify-center py-16 px-4">
+		<div class="max-w-[1240px]">
+			<div class="flex flex-row justify-between items-center text-white mb-8">
+				<h3 class="text-3xl font-bold capitalize">live auctions</h3>
+				<a href="#" class="text-lg font-semibold capitalize hover:text-blue-800">view all <span><i
+							class="bi bi-arrow-right"></i></span></a>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href="#">La Chapelle de St Jean</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>La Chapelle de St Jean</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>La Chapelle de St Jean</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>La Chapelle de St Jean</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-black flex justify-center py-16 px-4">
+		<div class="max-w-[1240px] w-full">
+			<div class="flex flex-row justify-between items-center text-white mb-8">
+				<h3 class="text-3xl font-bold capitalize">Popular Collections</h3>
+				<a href="#" class="text-lg font-semibold capitalize hover:text-blue-800">explore more <span><i
+							class="bi bi-arrow-right"></i></span></a>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+				<div class="flex flex-row items-center gap-x-8 bg-gray-900 p-4 rounded-md">
+					<div class="w-[80px] m-2">
+						<img class="rounded-md" src="../../img/TK-Bored-Ape.jpg" alt="some image">
+					</div>
+					<div class="flex flex-col gap-y-6">
+						<h3 class="text-white hover:text-blue-500 font-bold text-xl"><a href='#'>CLONE X</a></h3>
+						<p class="text-gray-500">5 Items</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-black flex justify-center py-16 px-4">
+		<div class="max-w-[1240px] w-full">
+			<div class="flex flex-row justify-between items-center text-white mb-8">
+				<h3 class="text-3xl font-bold capitalize">Exclusive assets</h3>
+				<a href="#" class="text-lg font-semibold capitalize hover:text-blue-800">view all <span><i
+							class="bi bi-arrow-right"></i></span></a>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+				<div class="hover:-translate-y-2 transition-all duration-300">
+					<div class="bg-gray-900 p-4 rounded-md">
+						<div>
+							<img class="h-full rounded-md" src="../../img/510a3a7cac1747e390485f513755604e_zipped.png"
+								alt="some image">
+						</div>
+						<div class="py-4">
+							<h5 class="text-white hover:text-blue-500 text-xl font-bold pb-2"><a href='#'>Jungle King</a>
+							</h5>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-dollar"></i></span>1,640.82
+							</p>
+							<p class="text-gray-500 text-lg font-semibold"><span><i class="bi bi-currency-bitcoin"></i></span>0.58</p>
+						</div>
+						<button
+							class="w-full border border-white rounded-full text-center text-white py-2 px-4 hover:bg-gradient-to-r from-blue-700 to-purple-700"><span><i
+									class="bi bi-bag-plus-fill"></i></span> Place a Bid</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-black flex justify-center py-16 px-4">
+		<div class="max-w-[1240px] w-full">
+			<div class="mb-4">
+				<h3 class="text-white text-3xl font-extrabold">Buy and sell your piece of Art</h3>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div class="text-white flex flex-col gap-y-4 p-2">
+					<span class="text-purple-500 text-5xl"><i class="bi bi-wallet2"></i></span>
+					<h4 class="text-2xl font-bold">Set up your wallet</h4>
+					<p class="text-gray-300">Once you've set up your wallet of choice, connect it to OpenSea by clicking the NFT
+						Marketplace in the top
+						right corner.
+						Learn about the wallets we support.</p>
+				</div>
+				<div class="text-white flex flex-col gap-y-4 p-2">
+					<span class="text-purple-500 text-5xl"><i class="bi bi-grid"></i></span>
+					<h4 class="text-2xl font-bold">Create your collection</h4>
+					<p class="text-gray-300">Click Create and set up your collection. Add social links, a description, profile &
+						banner images, and set a secondary
+						sales fee.</p>
+				</div>
+				<div class="text-white flex flex-col gap-y-4 p-2">
+					<span class="text-purple-500 text-5xl"><i class="bi bi-cart-plus-fill"></i></span>
+					<h4 class="text-2xl font-bold">Add your NFTs</h4>
+					<p class="text-gray-300">Upload your work (image, video, audio, or 3D art), add a title and description, and
+						customize your NFTs with properties,
+						stats, and unlockable content.</p>
+				</div>
+				<div class="text-white flex flex-col gap-y-4 p-2">
+					<span class="text-purple-500 text-5xl"><i class="bi bi-bag"></i></span>
+					<h4 class="text-2xl font-bold">List them for sale</h4>
+					<p class="text-gray-300">Choose between auctions, fixed-price listings, and declining-price listings. You
+						choose how you want to sell your NFTs!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-black flex justify-center py-16 px-4">
+		<div class="max-w-[1240px] w-full">
+			<div class="flex flex-row justify-between items-center text-white mb-8">
+				<h3 class="text-3xl font-bold capitalize">latest news</h3>
+				<a href="#" class="text-lg font-semibold capitalize hover:text-blue-800">view all <span><i
+							class="bi bi-arrow-right"></i></span></a>
+			</div>
+
+			<div class="flex flex-row flex-wrap justify-center items-center flex-grow-0 flex-shrink-0 gap-4">
+				<a href="#" class="hover:-translate-y-2 transition-all duration-300 max-w-[400px]">
+					<div class="rounded-md bg-[url('../../img/art.jpg')]">
+						<div
+							class="px-8 py-12 hover:bg-gradient-to-bl from-purple-700/90 via-purple-700/90 to-pink-500/90 text-center flex flex-col gap-y-4 justify-center items-center">
+							<h3 class="text-white capitalize font-bold text-2xl">the lost art of photography</h3>
+							<p class="text-white text-lg font-semibold">Content Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts...</p>
+							<div class="border-[0.5px] border-white w-full"></div>
+							<div class="flex flex-col justify-center items-center text-white text-lg">
+								<p><span class="mx-2"><i class="bi bi-person"></i></span> junaid</p>
+								<p><span class="mx-2"><i class="bi bi-clock"></i></span> February 9, 2022</p>
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="hover:-translate-y-2 transition-all duration-300 max-w-[400px]">
+					<div class="rounded-md bg-[url('../../img/keyboard.jpg')]">
+						<div
+							class="p-8 hover:bg-gradient-to-bl from-purple-700/90 via-purple-700/90 to-pink-500/90 text-center flex flex-col gap-y-4 justify-center items-center">
+							<h3 class="text-white capitalize font-bold text-2xl">Decentralizing NFT metadata on netstorm</h3>
+							<p class="text-white text-lg font-semibold">Content Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts...</p>
+							<div class="border-[0.5px] border-white w-full"></div>
+							<div class="flex flex-col justify-center items-center text-white text-lg">
+								<p><span class="mx-2"><i class="bi bi-person"></i></span> junaid</p>
+								<p><span class="mx-2"><i class="bi bi-clock"></i></span> February 9, 2022</p>
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="hover:-translate-y-2 transition-all duration-300 max-w-[400px]">
+					<div class="rounded-md bg-[url('../../img/crypto2.jpg')] bg-cover">
+						<div
+							class="p-8 hover:bg-gradient-to-bl from-purple-700/90 via-purple-700/90 to-pink-500/90 text-center flex flex-col gap-y-4 justify-center items-center">
+							<h3 class="text-white capitalize font-bold text-2xl">save thousands of lives trough this NFT</h3>
+							<p class="text-white text-lg font-semibold">Content Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts...</p>
+							<div class="border-[0.5px] border-white w-full"></div>
+							<div class="flex flex-col justify-center items-center text-white text-lg">
+								<p><span class="mx-2"><i class="bi bi-person"></i></span> junaid</p>
+								<p><span class="mx-2"><i class="bi bi-clock"></i></span> February 9, 2022</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer class="bg-slate-900 px-4 py-8 flex justify-center items-center">
+		<div class="max-w-[1240px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+			<div class="flex flex-col justify-center gap-y-4">
+				<img class="h-[100px] w-[100px]" src="../../img/logo.png" alt="bitArt logo">
+				<p class="text-gray-500 text-lg">The world's largest digital marketplace for crypto collectibles and NFTs. Buy,
+					sell, and discover exclusive digital
+					items.</p>
+				<div class="flex flex-row gap-3">
+					<div class="bg-gray-800 py-1 text-white text-lg px-2"><i class="bi bi-facebook"></i></div>
+					<div class="bg-gray-800 py-1 text-white text-lg px-2"><i class="bi bi-twitter"></i></div>
+					<div class="bg-gray-800 py-1 text-white text-lg px-2"><i class="bi bi-telegram"></i></div>
+					<div class="bg-gray-800 py-1 text-white text-lg px-2"><i class="bi bi-discord"></i></div>
+				</div>
+			</div>
+			<div class="flex flex-col justify-center gap-y-4">
+				<h3 class="text-xl text-white font-bold capitalize">useful links</h3>
+				<ul>
+					<li class="capitalize text-gray-400 text-lg">all NFTs</li>
+					<li class="capitalize text-gray-400 text-lg">how it works</li>
+					<li class="capitalize text-gray-400 text-lg">create</li>
+					<li class="capitalize text-gray-400 text-lg">explore</li>
+					<li class="capitalize text-gray-400 text-lg">privacy & terms</li>
+				</ul>
+			</div>
+			<div class="flex flex-col justify-center gap-y-4">
+				<h3 class="text-xl text-white font-bold capitalize">community</h3>
+				<ul>
+					<li class="capitalize text-gray-400 text-lg">help center</li>
+					<li class="capitalize text-gray-400 text-lg">partners</li>
+					<li class="capitalize text-gray-400 text-lg">suggestions</li>
+					<li class="capitalize text-gray-400 text-lg">blog</li>
+					<li class="capitalize text-gray-400 text-lg">newsletter</li>
+				</ul>
+			</div>
+			<div class="flex flex-col justify-center gap-y-4">
+				<h3 class="text-xl text-white font-bold capitalize">popular tags</h3>
+				<div class="flex flex-wrap gap-2">
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">art</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">bids</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">bitcoin</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">crypto</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">digital</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">marketplace</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">minting</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">NFT</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">token</p>
+					<p class="border border-gray-400 text-gray-400 text-md px-3 py-1 capitalize">wallet</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
